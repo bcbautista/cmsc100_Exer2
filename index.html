@@ -9,16 +9,18 @@
 			.imagediv {
 			    padding: 20px;
 			    text-align: center;
-			    background: white;
+			    background: #ffcf8f;
 			    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			    width: 500px;
+			    width: 300px;
+			    float: left;
+			    margin: 20px;
 			}
       
 			.img {
 				width: 200px;
 				height: 200px;
-				border-radius: 50%;
-				border: 2px solid #3B9C9C;
+				border-radius: 25%;
+				border: 3px dashed #FF4500;
 			}
       
 			ul {
@@ -26,49 +28,89 @@
 			    margin: 0;
 			    padding: 0;
 			}
+
+			.maindiv {
+				position: absolute;
+				margin-top: 300px;
+				margin-left: 350px;
+			}
+
+			.header {
+			    text-align: center;
+			    height: 30%;
+			    width: 100%;
+			    position: absolute;
+			    opacity: 0.8;
+			}
+
+			.headerimg {
+				max-width:100%;
+				max-height:100%;
+			}
+
+			body {
+				font-family: Arial;
+			    background-color: #FFFFFF;
+			    margin: 0;
+			    padding: 0;
+			    background-image: url("bg.jpg");
+			    height: 100%;
+			    background-repeat: no-repeat;
+			}
+
+			.bottomdiv {
+    			margin-top:700px;
+			}
+
 		</style>
 	</head>
 
 	<body>
-		<div class="imagediv">
-			<a href="https://bcbautista.github.io/"><img src="lae.jpg" alt="Profile Picture" class="img" width = "300px" height = "500px"></a>
-			<hr>
-			<ul class="menu">
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">person</i> Lae Nicole M. Evangelista </li>
-				<hr>
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">cake</i> January 5, 1999 </li>
-				<hr>
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">school</i> BS Computer Science</li>
-				<hr>
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">email</i> lmevangelista1@up.edu.ph</li>
-        </div>
-
-     <div class="imagediv">
-			<a href="https://ruartranosa.github.io/"><img src="https://raw.githubusercontent.com/RuartRanosa/RuartRanosa.github.io/master/IMG_20170808_042658.jpg" alt="Profile Picture" class="img"></a>
-			<hr>
-			<ul class="menu">
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">person</i> Ranosa, John Philip Ruart M.</li>
-				<hr>
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">cake</i>December 27, 1998</li>
-				<hr>
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">school</i> BS Computer Science</li>
-				<hr>
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">email</i> jmranosa@up.edu.ph</li>
-			</ul>
+		<div class="header">
+			<img class="headerimg" src="aboutus.png" class="img">
 		</div>
-    
-    <div class="imagediv">
-			<a href="https://bcbautista.github.io/"><img src="Bautista.jpg" alt="Profile Picture" class="img"></a>
-			<hr>
-			<ul class="menu">
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">person</i> Bianca Ruth C. Bautista</li>
+
+		<div class="maindiv">
+			<div class="imagediv">
+				<a href="https://nicoleterego.github.io/"><img src="lae.jpg" alt="Profile Picture" class="img" width = "300px" height = "500px"></a>
 				<hr>
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">cake</i> September 27, 1998</li>
+				<ul class="menu">
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">person</i> Lae Nicole M. Evangelista </li>
+					<hr>
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">cake</i> January 5, 1999 </li>
+					<hr>
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">school</i> BS Computer Science</li>
+					<hr>
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">email</i> lmevangelista1@up.edu.ph</li>
+	        </div>
+
+	     	<div class="imagediv">
+				<a href="https://ruartranosa.github.io/"><img src="https://raw.githubusercontent.com/RuartRanosa/RuartRanosa.github.io/master/IMG_20170808_042658.jpg" alt="Profile Picture" class="img"></a>
 				<hr>
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">school</i> BS Computer Science</li>
+				<ul class="menu">
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">person</i> Ranosa, John Philip Ruart M.</li>
+					<hr>
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">cake</i>December 27, 1998</li>
+					<hr>
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">school</i> BS Computer Science</li>
+					<hr>
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">email</i> jmranosa@up.edu.ph</li>
+				</ul>
+			</div>
+	    
+	    	<div class="imagediv">
+				<a href="https://bcbautista.github.io/"><img src="Bautista.jpg" alt="Profile Picture" class="img"></a>
 				<hr>
-				<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">email</i> bcbautista1@up.edu.ph</li>
-			</ul>
+				<ul class="menu">
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">person</i> Bianca Ruth C. Bautista</li>
+					<hr>
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">cake</i> September 27, 1998</li>
+					<hr>
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">school</i> BS Computer Science</li>
+					<hr>
+					<li><i class="material-icons" style="vertical-align: bottom; font-size:20px; padding: 0px">email</i> bcbautista1@up.edu.ph</li>
+				</ul>
+			</div>
 		</div>
 	</body>
 </html>
